@@ -1,0 +1,4 @@
+TEST(8.11.1):C10000:[indexSort=<doc>]:[diagnostics={key1=value1, key2=value2}]:[attributes={key1=value1, key2=value2}]
+TEST: isNRT=true reader1=StandardDirectoryReader(segments:3:nrt _0(8.11.1):c2:[diagnostics={os=Windows 11, java.vendor=Oracle Corporation, java.version=1.8.0_351, java.vm.version=25.351-b10, lucene.version=8.11.1, os.arch=amd64, java.runtime.version=1.8.0_351-b10, source=flush, os.version=10.0, timestamp=1716893324943}]:[attributes={Lucene87StoredFieldsFormat.mode=BEST_SPEED}] :id=sa900g8ce0molk1z7rdbnhvx)
+TEST: now reopen
+TEST: now get reader

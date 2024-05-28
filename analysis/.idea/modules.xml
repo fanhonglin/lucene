@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/analysis.iml" filepath="$PROJECT_DIR$/.idea/analysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/src/common.iml" filepath="$PROJECT_DIR$/common/src/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/icu/src/icu.iml" filepath="$PROJECT_DIR$/icu/src/icu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kuromoji/kuromoji.iml" filepath="$PROJECT_DIR$/kuromoji/kuromoji.iml" />
+      <module fileurl="file://$PROJECT_DIR$/morfologik/morfologik.iml" filepath="$PROJECT_DIR$/morfologik/morfologik.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nori/nori.iml" filepath="$PROJECT_DIR$/nori/nori.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opennlp/opennlp.iml" filepath="$PROJECT_DIR$/opennlp/opennlp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/phonetic/phonetic.iml" filepath="$PROJECT_DIR$/phonetic/phonetic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smartcn/smartcn.iml" filepath="$PROJECT_DIR$/smartcn/smartcn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stempel/stempel.iml" filepath="$PROJECT_DIR$/stempel/stempel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/icu/src/tools/tools.iml" filepath="$PROJECT_DIR$/icu/src/tools/tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/src/tools/tools1.iml" filepath="$PROJECT_DIR$/common/src/tools/tools1.iml" />
+    </modules>
+  </component>
+</project>

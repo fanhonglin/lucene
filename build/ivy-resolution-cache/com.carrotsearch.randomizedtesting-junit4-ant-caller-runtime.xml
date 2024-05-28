@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.carrotsearch.randomizedtesting"
+		module="junit4-ant-caller"
+		revision="working"
+		conf="runtime"
+		confs="default, master, compile, provided, runtime, system, sources, javadoc, optional"
+		date="20240528184652"/>
+	<dependencies>
+		<module organisation="com.carrotsearch.randomizedtesting" name="junit4-ant">
+			<revision name="2.7.2" status="release" pubdate="20181215043434" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime" position="0">
+				<metadata-artifact status="no" details="" size="8590" time="0" location="C:\Users\王娜\.ivy2\cache\com.carrotsearch.randomizedtesting\junit4-ant\ivy-2.7.2.xml" searched="false" original-local-location="C:\Users\王娜\.ivy2\cache\com.carrotsearch.randomizedtesting\junit4-ant\ivy-2.7.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/carrotsearch/randomizedtesting/junit4-ant/2.7.2/junit4-ant-2.7.2.pom"/>
+				<caller organisation="com.carrotsearch.randomizedtesting" name="junit4-ant-caller" conf="runtime" rev="2.7.2" rev-constraint-default="2.7.2" rev-constraint-dynamic="2.7.2" callerrev="working"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

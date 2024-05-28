@@ -1,0 +1,198 @@
+<testsuite errors="0" failures="0" tests="129" skipped="16" name="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" hostname="nohost.nodomain" time="23.698" timestamp="2024-05-28T18:48:23">
+   <properties class="java.util.ArrayList">
+      <property name="file.separator" value="\"/>
+      <property name="java.class.path" value="D:\work\git\lucene-8.11.1\build\codecs\classes\java;D:\work\git\lucene-8.11.1\build\test-framework\classes\java;D:\work\git\lucene-8.11.1\test-framework\lib\hamcrest-core-1.3.jar;D:\work\git\lucene-8.11.1\test-framework\lib\junit-4.13.1.jar;D:\work\git\lucene-8.11.1\test-framework\lib\randomizedtesting-runner-2.7.2.jar;D:\work\git\lucene-8.11.1\build\core\classes\java;D:\work\git\lucene-8.11.1\build\core\classes\test;C:\Users\王娜\.ivy2\cache\com.carrotsearch.randomizedtesting\junit4-ant\jars\junit4-ant-2.7.2.jar"/>
+      <property name="java.class.version" value="52.0"/>
+      <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_351\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+      <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_351\jre"/>
+      <property name="java.io.tmpdir" value="./temp"/>
+      <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_351\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\TortoiseSVN\bin;C:\Users\王娜\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\CLion 2022.2.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.3\bin;;D:\software\mongo\mongodb-win32-x86_64-windows-4.4.19\bin;C:\WINDOWS\System32\Wbem;C:\Users\王娜\.dotnet\tools;C:\Users\王娜\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm 2022.2.1\bin;;D:\software\ant\apache-ant-1.10.14\bin;;."/>
+      <property name="java.specification.name" value="Java Platform API Specification"/>
+      <property name="java.specification.vendor" value="Oracle Corporation"/>
+      <property name="java.specification.version" value="1.8"/>
+      <property name="java.vendor" value="Oracle Corporation"/>
+      <property name="java.vendor.url" value="http://java.oracle.com/"/>
+      <property name="java.version" value="1.8.0_351"/>
+      <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+      <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+      <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+      <property name="java.vm.specification.version" value="1.8"/>
+      <property name="java.vm.vendor" value="Oracle Corporation"/>
+      <property name="java.vm.version" value="25.351-b10"/>
+      <property name="junit4.memory.total" value="253231104"/>
+      <property name="junit4.pidString" value="24996@localhost"/>
+      <property name="junit4.processors" value="16"/>
+      <property name="line.separator" value="
+"/>
+      <property name="os.arch" value="amd64"/>
+      <property name="os.name" value="Windows 11"/>
+      <property name="os.version" value="10.0"/>
+      <property name="path.separator" value=";"/>
+      <property name="user.dir" value="D:\work\git\lucene-8.11.1\build\core\test\J0"/>
+      <property name="user.home" value="C:\Users\王娜"/>
+      <property name="user.name" value="王娜"/>
+   </properties>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedSetMergeAwayAllValuesLargeSegment" time="0.03"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testByteNumericsVsStoredFields" time="0.033"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testThreads2" time="0.0">
+      <skipped></skipped>
+   </testcase>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedSetTwoDocumentsLastMissing" time="0.0"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSparseDocValuesVsStoredFields" time="7.545"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testThreeNumbersOneMissingWithMerging" time="0.0"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedBytesTwoDocumentsMerged" time="0.0"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSparseBinaryFixedLengthVsStoredFields" time="0.021"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testBinaryFixedLengthVsStoredFields" time="0.024"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testDateCompression" time="0.004"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testDocValuesSimple" time="0.004"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testBytesTwoDocumentsMerged" time="0.004"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedSetTwoDocumentsLastMissingMerge" time="0.004"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testTermsEnumRandomMany" time="0.001">
+      <skipped></skipped>
+   </testcase>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testZeros" time="0.026"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testMissingSortedBytes" time="0.002"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSingleBigValueCompression" time="0.023"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testTwoDocumentsMerged" time="0.005"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedNumericMergeAwayAllValuesLargeSegment" time="0.006"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testBinaryMergeAwayAllValuesLargeSegment" time="0.035"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedSetAroundBlockSize" time="0.001">
+      <skipped></skipped>
+   </testcase>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testRandomAdvanceBinary" time="0.225"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedNumericsFewUniqueSetsVsStoredFields" time="0.029"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testCodecUsesOwnBytes" time="0.003"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSparseShortNumericsVsStoredFields" time="0.027"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testTwoSortedNumberSameValue" time="0.002"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedNumericAroundBlockSize" time="0.0">
+      <skipped></skipped>
+   </testcase>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedVariableLengthBigVsStoredFields" time="0.633"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedBytesThreeDocuments" time="0.015"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testNumericFieldJumpTables" time="0.0">
+      <skipped></skipped>
+   </testcase>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testTwoFieldsMixed" time="0.002"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedSetVariableLengthManyVsStoredFields" time="0.0">
+      <skipped></skipped>
+   </testcase>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testMergeStability" time="0.014"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSparseSortedVariableLengthVsStoredFields" time="1.66"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testTwoBytesOneMissingWithMerging" time="0.001"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSparseSortedNumericBlocksOfVariousBitsPerValue" time="0.0">
+      <skipped></skipped>
+   </testcase>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testBytesWithNewline" time="0.0"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testEmptyBinaryValueOnPageSizes" time="0.033"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testThreeFieldsMixed" time="0.017"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testTwoSortedNumberOneMissing" time="0.002"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testBytes" time="0.003"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedVariableLengthVsStoredFields" time="2.209"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testCodecUsesOwnSortedBytes" time="0.0"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSparseZeros" time="0.016"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedSetThreeValuesTwoDocs" time="0.016"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testRamBytesUsed" time="0.0">
+      <skipped></skipped>
+   </testcase>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedNumericsSingleValuedVsStoredFields" time="0.016"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSparseIntNumericsVsStoredFields" time="0.016"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testNumberMergeAwayAllValues" time="0.017"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSparseBinaryVariableLengthVsStoredFields" time="0.016"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedSetVariableLengthBigVsStoredFields" time="0.253"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testLongNumericsVsStoredFields" time="0.038"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSparseByteNumericsVsStoredFields" time="0.03"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testNumericBlocksOfVariousBitsPerValue" time="0.0">
+      <skipped></skipped>
+   </testcase>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testThreeBytesOneMissingWithMerging" time="0.013"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedTermsEnum" time="0.0"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testUniqueValuesCompression" time="0.0"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedMergeAwayAllValues" time="0.017"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testThreads" time="0.017"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedSetFixedLengthManyValuesPerDocVsStoredFields" time="0.315"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedEnumAdvanceIndependently" time="0.0"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testOneSortedNumber" time="0.0"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedSetTwoDocumentsFirstMissingMerge" time="0.0"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testTermsEnumVariableWidth" time="0.0">
+      <skipped></skipped>
+   </testcase>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testShortNumericsVsStoredFields" time="0.032"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testRandomAdvanceNumeric" time="0.226"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedSetVariableLengthVsStoredFields" time="0.872"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedSetTermsEnum" time="0.017"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedBytes" time="0.0"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testTwoNumbers" time="0.0"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedNumericsSingleValuedMissingVsStoredFields" time="0.017"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedSetFixedLengthSingleValuedVsStoredFields" time="1.349"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedSetFixedLengthFewUniqueSetsVsStoredFields" time="0.889"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testTwoDocumentsNumeric" time="0.0"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedVariableLengthManyVsStoredFields" time="0.0">
+      <skipped></skipped>
+   </testcase>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedSetVariableLengthFewUniqueSetsVsStoredFields" time="1.38"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testBytesMergeAwayAllValues" time="0.001"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedSetTwoDocumentsMerged" time="0.004"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testVariouslyCompressibleBinaryValues" time="0.012"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testGCDCompression" time="0.046"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testBooleanNumericsVsStoredFields" time="0.013"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSparseBooleanNumericsVsStoredFields" time="0.033"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testMultiClose" time="0.096"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSparseLongNumericsVsStoredFields" time="0.017"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testTwoBinaryValues" time="0.0"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testTwoSortedNumber" time="0.0"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedFixedLengthVsStoredFields" time="0.941"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testEmptyBytes" time="0.0"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testOneSortedNumberOneMissing" time="0.0"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testEmptySortedBytes" time="0.013"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedMergeAwayAllValuesLargeSegment" time="0.014"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testTermsEnumFixedWidth" time="0.0">
+      <skipped></skipped>
+   </testcase>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedNumericsMultipleValuesVsStoredFields" time="0.048"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testThreeFieldsMixed2" time="0.0"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testTermsEnumLongSharedPrefixes" time="0.0">
+      <skipped></skipped>
+   </testcase>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testVeryLargeButLegalSortedBytes" time="0.0"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSparseGCDCompression" time="0.016"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testTwoNumbersOneMissingWithMerging" time="0.0"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedSetFixedLengthVsStoredFields" time="1.304"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testBigNumericRange" time="0.0"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testNumericMergeAwayAllValuesLargeSegment" time="0.017"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testBigNumericRange2" time="0.0"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testRandomSortedBytes" time="0.016"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedSetVariableLengthManyValuesPerDocVsStoredFields" time="0.176"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedNumericBlocksOfVariousBitsPerValue" time="0.0">
+      <skipped></skipped>
+   </testcase>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedNumberMerge" time="0.0"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testVeryLargeButLegalBytes" time="0.0"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedSetTwoDocumentsFirstMissing" time="0.015"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedSetTwoValuesUnordered" time="0.0"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSparseNumericBlocksOfVariousBitsPerValue" time="0.0">
+      <skipped></skipped>
+   </testcase>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testTwoBytesOneMissing" time="0.0"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testOneFloat" time="0.0"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSparseSortedFixedLengthVsStoredFields" time="0.84"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedSetOneValue" time="0.0"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedSetVariableLengthSingleValuedVsStoredFields" time="1.508"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testBinaryVariableLengthVsStoredFields" time="0.032"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedSetEnumAdvanceIndependently" time="0.001"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedSetMergeAwayAllValues" time="0.0"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedSetTwoValues" time="0.0"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testIntNumericsVsStoredFields" time="0.03"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testTwoNumbersOneMissing" time="0.006"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedSetTwoFields" time="0.0"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testOneNumber" time="0.0"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testThreads3" time="0.0">
+      <skipped></skipped>
+   </testcase>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testZeroOrMin" time="0.027"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedNumberMergeAwayAllValues" time="0.0"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testRandomExceptions" time="0.048"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testCheckIntegrityReadsAllBytes" time="0.014"/>
+   <testcase classname="org.apache.lucene.codecs.lucene80.TestBestSpeedLucene80DocValuesFormat" name="testSortedBytesTwoDocuments" time="0.0"/>
+   <system-out><![CDATA[]]></system-out>
+   <system-err><![CDATA[]]></system-err>
+</testsuite>

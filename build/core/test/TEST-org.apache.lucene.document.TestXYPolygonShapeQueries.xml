@@ -1,0 +1,44 @@
+<testsuite errors="0" failures="0" tests="5" skipped="1" name="org.apache.lucene.document.TestXYPolygonShapeQueries" hostname="nohost.nodomain" time="0.509" timestamp="2024-05-28T18:48:13">
+   <properties class="java.util.ArrayList">
+      <property name="file.separator" value="\"/>
+      <property name="java.class.path" value="D:\work\git\lucene-8.11.1\build\codecs\classes\java;D:\work\git\lucene-8.11.1\build\test-framework\classes\java;D:\work\git\lucene-8.11.1\test-framework\lib\hamcrest-core-1.3.jar;D:\work\git\lucene-8.11.1\test-framework\lib\junit-4.13.1.jar;D:\work\git\lucene-8.11.1\test-framework\lib\randomizedtesting-runner-2.7.2.jar;D:\work\git\lucene-8.11.1\build\core\classes\java;D:\work\git\lucene-8.11.1\build\core\classes\test;C:\Users\王娜\.ivy2\cache\com.carrotsearch.randomizedtesting\junit4-ant\jars\junit4-ant-2.7.2.jar"/>
+      <property name="java.class.version" value="52.0"/>
+      <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_351\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+      <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_351\jre"/>
+      <property name="java.io.tmpdir" value="./temp"/>
+      <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_351\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files\TortoiseSVN\bin;C:\Users\王娜\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\CLion 2022.2.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.3\bin;;D:\software\mongo\mongodb-win32-x86_64-windows-4.4.19\bin;C:\WINDOWS\System32\Wbem;C:\Users\王娜\.dotnet\tools;C:\Users\王娜\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm 2022.2.1\bin;;D:\software\ant\apache-ant-1.10.14\bin;;."/>
+      <property name="java.specification.name" value="Java Platform API Specification"/>
+      <property name="java.specification.vendor" value="Oracle Corporation"/>
+      <property name="java.specification.version" value="1.8"/>
+      <property name="java.vendor" value="Oracle Corporation"/>
+      <property name="java.vendor.url" value="http://java.oracle.com/"/>
+      <property name="java.version" value="1.8.0_351"/>
+      <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+      <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+      <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+      <property name="java.vm.specification.version" value="1.8"/>
+      <property name="java.vm.vendor" value="Oracle Corporation"/>
+      <property name="java.vm.version" value="25.351-b10"/>
+      <property name="junit4.memory.total" value="253231104"/>
+      <property name="junit4.pidString" value="6476@localhost"/>
+      <property name="junit4.processors" value="16"/>
+      <property name="line.separator" value="
+"/>
+      <property name="os.arch" value="amd64"/>
+      <property name="os.name" value="Windows 11"/>
+      <property name="os.version" value="10.0"/>
+      <property name="path.separator" value=";"/>
+      <property name="user.dir" value="D:\work\git\lucene-8.11.1\build\core\test\J3"/>
+      <property name="user.home" value="C:\Users\王娜"/>
+      <property name="user.name" value="王娜"/>
+   </properties>
+   <testcase classname="org.apache.lucene.document.TestXYPolygonShapeQueries" name="testRandomBig" time="0.0">
+      <skipped></skipped>
+   </testcase>
+   <testcase classname="org.apache.lucene.document.TestXYPolygonShapeQueries" name="testRandomTiny" time="0.158"/>
+   <testcase classname="org.apache.lucene.document.TestXYPolygonShapeQueries" name="testLowCardinalityShapeManyTimes" time="0.08"/>
+   <testcase classname="org.apache.lucene.document.TestXYPolygonShapeQueries" name="testSameShapeManyTimes" time="0.017"/>
+   <testcase classname="org.apache.lucene.document.TestXYPolygonShapeQueries" name="testRandomMedium" time="0.127"/>
+   <system-out><![CDATA[]]></system-out>
+   <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="com.carrotsearch.randomizedtesting"
+		module="junit4-ant-caller"
+		revision="working"
+		status="integration"
+		publication="20240528184652"
+		default="true"
+	/>
+	<configurations>
+		<conf name="default" visibility="public"/>
+		<conf name="master" visibility="public"/>
+		<conf name="compile" visibility="public"/>
+		<conf name="provided" visibility="public"/>
+		<conf name="runtime" visibility="public"/>
+		<conf name="system" visibility="public"/>
+		<conf name="sources" visibility="public"/>
+		<conf name="javadoc" visibility="public"/>
+		<conf name="optional" visibility="public"/>
+	</configurations>
+	<publications>
+	</publications>
+	<dependencies>
+		<dependency org="com.carrotsearch.randomizedtesting" name="junit4-ant" rev="2.7.2" force="true" conf="default->default;master->master;compile->compile;provided->provided;runtime->runtime;system->system;sources->sources;javadoc->javadoc;optional->optional"/>
+	</dependencies>
+</ivy-module>
